@@ -6,9 +6,9 @@ use App\Http\Requests\Api\Detalles\DetalleStoreRequest;
 use App\Http\Requests\Api\Detalles\DetalleUpdateRequest;
 use App\Models\Detalle;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Api\BaseController;
+use App\Http\Controllers\Api\BaseController as Controller;
 
-class DetalleController extends BaseController
+class DetalleController extends Controller
 {
     //Listar todos LOS REGISTROS
     public function index()
